@@ -1,0 +1,148 @@
+{
+  "id": "75d240e1-e411-45e1-8521-2974041140d7",
+  "version": "2.0",
+  "name": "lastclass",
+  "url": "https://nubank.com.br",
+  "tests": [{
+    "id": "d8b642ac-a510-463c-985e-e8f6ca478c0e",
+    "name": "testeNubank",
+    "commands": [{
+      "id": "20d2263f-edae-4697-965d-02ed2b6c6b0e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2369bae5-73be-4a60-97f5-fc54d16494ec",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1792x1120",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "51b47470-c844-4764-a203-20f89a184e8b",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Perguntas",
+      "targets": [
+        ["linkText=Perguntas", "linkText"],
+        ["css=li:nth-child(5) > .gEnAeu", "css:finder"],
+        ["xpath=//a[contains(text(),'Perguntas')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/div/header/div/div/nav/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/perguntas/')]", "xpath:href"],
+        ["xpath=//nav/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Perguntas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae7ebf27-7d53-45bd-878b-b2302f379460",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Perguntas",
+      "targets": [
+        ["linkText=Perguntas", "linkText"],
+        ["css=.menu-navigation-link--large-screen__active", "css:finder"],
+        ["xpath=//a[contains(text(),'Perguntas')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/div[2]/header/div/div/nav/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/perguntas/')]", "xpath:href"],
+        ["xpath=//nav/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Perguntas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "598e7296-66a6-44f8-819b-52a8a7fc863a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Perguntas",
+      "targets": [
+        ["linkText=Perguntas", "linkText"],
+        ["css=.menu-navigation-link--large-screen__active", "css:finder"],
+        ["xpath=//a[contains(text(),'Perguntas')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/div[2]/header/div/div/nav/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/perguntas/')]", "xpath:href"],
+        ["xpath=//nav/li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Perguntas')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3133033-4291-4cd6-8dc2-734dc48ac74e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.style__Block-p97ka2-0:nth-child(1) .List__ListItem-sc-1uvrd6r-1:nth-child(3) .sc-qZtCU > .sc-qZtCU",
+      "targets": [
+        ["css=.style__Block-p97ka2-0:nth-child(1) .List__ListItem-sc-1uvrd6r-1:nth-child(3) .sc-qZtCU > .sc-qZtCU", "css:finder"],
+        ["xpath=//div[@id='main-content']/section[2]/article/div/ul/li[3]/div/div[2]/a/h3", "xpath:idRelative"],
+        ["xpath=//li[3]/div/div[2]/a/h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Não tem nenhuma tarifa?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e0dc05a-3191-49f6-8f67-e50a2a703447",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Página inicial",
+      "targets": [
+        ["linkText=Página inicial", "linkText"],
+        ["css=li:nth-child(1) > .gEnAeu", "css:finder"],
+        ["xpath=//a[contains(text(),'Página inicial')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/div[2]/header/div/div/nav/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/')])[2]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Página inicial')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a5330da-d833-45c7-b0d5-9ff6c479a5ba",
+      "comment": "",
+      "command": "click",
+      "target": "id=field-cpf",
+      "targets": [
+        ["id=field-cpf", "id"],
+        ["name=cpf", "name"],
+        ["css=#field-cpf", "css:finder"],
+        ["xpath=//input[@id='field-cpf']", "xpath:attributes"],
+        ["xpath=//label[@id='label-cpf']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "70154a47-6ae9-43a1-95f9-59f3dcb67f29",
+      "comment": "",
+      "command": "type",
+      "target": "id=field-cpf",
+      "targets": [
+        ["id=field-cpf", "id"],
+        ["name=cpf", "name"],
+        ["css=#field-cpf", "css:finder"],
+        ["xpath=//input[@id='field-cpf']", "xpath:attributes"],
+        ["xpath=//label[@id='label-cpf']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "50271552808"
+    }, {
+      "id": "7614f86a-cb06-477f-9655-8ccc0f50d4fe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-pzMyG",
+      "targets": [
+        ["css=.sc-pzMyG", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='short-form']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Continuar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d6503e2e-2797-413a-9f08-66985c08d199",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d8b642ac-a510-463c-985e-e8f6ca478c0e"]
+  }],
+  "urls": ["https://nubank.com.br/"],
+  "plugins": []
+}
